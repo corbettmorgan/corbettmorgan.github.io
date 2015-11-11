@@ -101,9 +101,9 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 .btn{
     border-width: 2px;
     background-color: rgba(0,0,0,.0);
-    font-weight: 400;
+    font-weight: 700;
     opacity: 0.8;
-    padding: 8px 16px;
+    padding: 10px 20px;
 }
 .btn-round{
     border-width: 1px;
@@ -308,8 +308,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     border-radius: 4px;
     box-shadow: none;
     color: #444444;
-    height: 38px;
-    padding: 6px 16px;
+    height: 44px;
+    padding: 8px 20px;
 }
 
 .form-control:focus {
@@ -328,8 +328,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     vertical-align: middle;
 }
 .form-control.transparent{
-    background-color: rgba(255, 255, 255, 0.07);
-    border: 1px solid rgba(238, 238, 238, 0.27);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(238, 238, 238, 0.75);
     color: #FFFFFF;
 }
 .form-control.transparent:focus{
@@ -718,8 +718,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 .main .logo{
     color: #FFFFFF;
-    font-size: 56px;
-    font-weight: 300;
+    font-size: 64px;
+    font-weight: 100;
     position: relative;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
@@ -739,7 +739,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     min-height: 120px;
 }
 .main .motto, .main .subscribe .info-text{
-    font-size: 28px;
+    font-size: 34px;
+    font-weight: 800;
     color: #FFFFFF;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
     text-align: center;
@@ -747,51 +748,10 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     
 }
 .main .subscribe .info-text{
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-#video_background {
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 1;
-    overflow: hidden;
-    background-image: url('../images/video_bg.png');
-    background-position: center center;
-    background-size: cover;
-
-}
-#video_pattern {
-    position: fixed;
-    opacity: 0.6;
-    background-color: rgba(0,0,0,.45);
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+    font-size: 26px;
+    margin-bottom: 10px;
 }
 
-.footer{
-    position: relative;
-    bottom: 20px;
-    right: 0px;
-    width: 100%;
-    color: #AAAAAA;
-    z-index: 4;
-    text-align: right;
-    margin-top: 50px;
-}
-.footer a{
-    color: #FFFFFF;
-}
-.footer .heart{
-    color: #FF3B30;
-}
 
 @media (min-width:219px){        
     .main .subscribe .form-group{
@@ -819,109 +779,4 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     .main .subscribe .form-group{
         width: 250px;
     }   
-}
-
-
-
-
-/*          For demo purpose         */
-
-
-
-.fixed-plugin{
-    position: fixed;
-    top:0px;
-    right: 50px;
-    z-index: 1031;
-}
-.fixed-plugin .fa-cog{
-    color: #FFFFFF;
-    background-color: rgba(0,0,0,.2);
-    padding: 10px;
-    border-radius: 0 0 6px 6px;
-}
-.fixed-plugin .dropdown-menu{
-    right: 0;
-    left: auto;
-}
-.fixed-plugin .dropdown-menu:after, .fixed-plugin .dropdown-menu:before{
-    right: 10px;
-    margin-left: auto;
-    left: auto;
-}
-.fixed-plugin .fa-circle-thin{
-    color: #FFFFFF;
-}
-.fixed-plugin .active .fa-circle-thin{
-    color: #00bbff;
-}
-.fixed-plugin .dropdown-menu > li > a{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.fixed-plugin .dropdown-menu > .active > a, .fixed-plugin .dropdown-menu > .active > a:hover, .fixed-plugin .dropdown-menu > .active > a:focus{
-    background: none;
-    color: #777777;
-}
-.fixed-plugin img{
-    border-radius: 6px;
-    width: 150px;
-    max-height: 65px;
-    border: 4px solid #FFFFFF;
-
-}
-.fixed-plugin .active img, .fixed-plugin a:hover img{
-    border-color: #00bbff;
-}
-
-.fixed-plugin .btn{
-    margin: 10px 15px 0;
-    color: #FFFFFF;
-}
-.fixed-plugin .btn:hover{
-    color: #FFFFFF;
-}
-.fixed-plugin .badge{
-    border: 3px solid #FFFFFF;
-    border-radius: 50%;
-    cursor: pointer;
-    display: inline-block;
-    height: 23px;
-    margin-right: 5px;
-    position: relative;
-    top: 5px;
-    width: 23px;
-}
-.fixed-plugin .badge.active, .fixed-plugin .badge:hover{
-    border-color: #00bbff;
-}
-.fixed-plugin .badge-black{
-    background-color: #333333;
-}
-.fixed-plugin .badge-blue{
-    background-color: #2C93FF;
-}
-.fixed-plugin .badge-green{
-    background-color: #05AE0E;
-}
-.fixed-plugin .badge-orange{
-    background-color: #FF9500;
-}
-.fixed-plugin .badge-red{
-    background-color: #FF3B30;
-}
-
-@media (max-width:768px){
-    .fixed-plugin{
-        top: 80px;
-        right: 0px;
-    }
-    .main .container{
-        margin-bottom: 50px;
-    }
-    #video_background{
-        display: none;
-    }
-
 }
