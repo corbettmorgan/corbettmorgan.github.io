@@ -142,8 +142,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     border-color: #2C93FF;
 }
 .btn-success{
-    color: #05AE0E;
-    border-color: #05AE0E;
+    color: #39ff14;
+    border-color: #39ff14;
 }
 .btn-warning{
     color: #FF9500;
@@ -205,7 +205,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 .btn-success.disabled, .btn-success[disabled], fieldset[disabled] .btn-success, .btn-success.disabled:hover, .btn-success[disabled]:hover, fieldset[disabled] .btn-success:hover, .btn-success.disabled:focus, .btn-success[disabled]:focus, fieldset[disabled] .btn-success:focus, .btn-success.disabled:active, .btn-success[disabled]:active, fieldset[disabled] .btn-success:active, .btn-success.disabled.active, .btn-success.active[disabled], fieldset[disabled] .btn-success.active {
     background-color: rgba(0, 0, 0, 0);
-    border-color: #05AE0E;
+    border-color: #39ff14;
 }
 .btn-danger.disabled, .btn-danger[disabled], fieldset[disabled] .btn-danger, .btn-danger.disabled:hover, .btn-danger[disabled]:hover, fieldset[disabled] .btn-danger:hover, .btn-danger.disabled:focus, .btn-danger[disabled]:focus, fieldset[disabled] .btn-danger:focus, .btn-danger.disabled:active, .btn-danger[disabled]:active, fieldset[disabled] .btn-danger:active, .btn-danger.disabled.active, .btn-danger.active[disabled], fieldset[disabled] .btn-danger.active {
     background-color: rgba(0, 0, 0, 0);
@@ -238,8 +238,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     border-color: #2C93FF;
 }
 .btn-success.btn-fill{
-    background-color: #05AE0E;
-    border-color: #05AE0E;
+    background-color: #39ff14;
+    border-color: #39ff14;
 }
 .btn-warning.btn-fill{
    background-color: #FF9500;
@@ -397,9 +397,9 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     border-top-color: #FFFFFF;
 }
 .navbar-transparent .navbar-nav > li > a, [class*="navbar-ct"] .navbar-nav > li > a{
-    color: #FFFFFF;
+    color: #39ff14;
     border-color: #FFFFFF;
-    opacity: 0.7;
+    opacity: 1;
 }
 .navbar-transparent .navbar-brand:hover, .navbar-transparent .navbar-brand:focus, [class*="navbar-ct"] .navbar-brand:hover, [class*="navbar-ct"] .navbar-brand:focus {
     background-color: rgba(0, 0, 0, 0);
