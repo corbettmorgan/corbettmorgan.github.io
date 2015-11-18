@@ -757,11 +757,11 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 @media (max-width:768px){
     .main .subscribe .form-group{
         width: auto;
-        margin-right: 100px;
-        margin-left: 100px;
+        margin-right: 50px;
+        margin-left: 50px;
     }
     .main .subscribe .form-inline .btn{
-        margin-left: 100px;
+        margin-left: 50px;
     } 
 }
 
