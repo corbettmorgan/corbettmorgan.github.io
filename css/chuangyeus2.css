@@ -741,7 +741,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     min-height: 120px;
 }
 .main .motto, .main .subscribe .info-text{
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 400;
     color: #FFFFFF;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
