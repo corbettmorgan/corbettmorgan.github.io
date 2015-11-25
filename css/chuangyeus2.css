@@ -7,6 +7,19 @@ Made with love by Creative Tim (http://www.creative-tim.com)
 body{
     
 }
+
+a.tooltip {outline:none; }
+a.tooltip:hover {text-decoration:none;} 
+a.tooltip span {
+    z-index:10;display:none; padding:0px 0px;
+    margin-top:20px; margin-left:-76px;
+    width:300px; line-height:5px;
+}
+a.tooltip:hover span{
+    display:inline; position:absolute; 
+}
+.callout {z-index:20;position:absolute;border:0;top:0px;left:20px;}
+    
 .form-control::-moz-placeholder{
    color: #DDDDDD;
    opacity: 1;
